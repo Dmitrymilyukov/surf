@@ -64,6 +64,11 @@
   text-decoration: none;
   color: rgb(10, 80, 122);
 }
+.header__container-menu .menu__list-item-a:hover {
+  color: rgb(43, 42, 41);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 .header__container-phone {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,6 +78,11 @@
   background-color: rgb(10, 80, 122);
   border-radius: 30px;
   height: 20px;
+}
+.header__container-phone:hover {
+  background: rgb(21, 122, 179);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .header__container-phone-a {
   display: -webkit-box;
@@ -110,6 +120,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 40px;
+  cursor: pointer;
+}
+.header__text-p:hover {
+  background-color: rgb(10, 80, 122);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .header__info {
   display: -webkit-box;
@@ -144,6 +160,12 @@
   background-color: rgba(255, 255, 255, 0.3);
   padding: 5px 10px;
   border-radius: 40px;
+}
+.header__info-categories-text-p:hover {
+  color: #fff;
+  background-color: rgba(10, 80, 122, 0.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .header__info-new {
   position: relative;
@@ -208,6 +230,12 @@
   line-height: 42px;
   text-transform: uppercase;
 }
+.header__contact-now-a1:hover {
+  color: rgb(43, 42, 41);
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 .header__contact-now-a2 {
   height: 42px;
   text-decoration: none;
@@ -220,6 +248,12 @@
   font-weight: 800;
   line-height: 42px;
   text-transform: uppercase;
+}
+.header__contact-now-a2:hover {
+  color: #fff;
+  background-color: rgb(43, 42, 41);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .main {
@@ -287,6 +321,12 @@
   padding: 10px 20px;
   margin: 0;
 }
+.content__left-categories-p:hover {
+  color: #fff;
+  background-color: rgb(10, 80, 122);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 .content__left-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,6 +386,12 @@
   border-radius: 30px;
   padding: 10px 20px;
 }
+.content__box-right-button-a:hover {
+  color: rgb(43, 42, 41);
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 
 .circle {
   margin: 0 60px 100px 60px;
@@ -364,6 +410,11 @@
   border-radius: 100%;
   text-align: center;
 }
+.circle__box-item:hover {
+  background-color: rgb(10, 80, 122);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 .circle__box-item-text {
   width: 140px;
   height: 140px;
@@ -380,6 +431,9 @@
   font-size: 26px;
   font-weight: 700;
   line-height: 34px;
+}
+.circle__box-item-text:hover {
+  color: #fff;
 }
 
 .content__full {
